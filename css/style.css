@@ -33,9 +33,8 @@
 }
 #mario{
     position: absolute;
-    bottom: 0;
     width: 175px;
-
+    animation: animacaopulo 500ms linear;
 
 }
 @keyframes animacaotubo{
@@ -49,4 +48,11 @@
 @keyframes animacaonuvens2{
     from{right:-200%;}
     to{right:100%;}
+}
+@keyframes animacaopulo{
+    0%{bottom:0;}
+    40%{bottom: 175px;}
+    50%{bottom: 175px;}
+    60%{bottom: 175px;}
+    100%{bottom: 0;}
 }

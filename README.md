@@ -1,2 +1,5 @@
 # mariojs
- Jogo do Mario feito apenas com JavaScript, HTML e CSS
+
+ Mario game made with JavaScript, HTML and CSS  
+
+ Jogo do Mario feito com JavaScript, HTML e CSS  

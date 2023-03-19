@@ -1,10 +1,22 @@
+const mariov = document.getElementById('mario')
+const tubov = document.getElementById('tubo')
+
 function pular(){
-    mario = document.getElementById('mario')
+    
     mario.style.animation='animacaopulo 500ms linear'
     
-
-    //Remove a animação para realizar o pulo novamente (SÓ QUE NÃO)
-    //setTimeout(mario.style.animation='' ,600)
- }
+        removeranimacao = function() {
+        mario.style.animation = ''
+        mario.removeEventListener('animationend', removeranimacao)
+      }
+      mario.addEventListener('animationend', removeranimacao)
+}
  
+
+const loop = setInterval(function(){
+    if(parseInt(tubo.style.left)<= 145){
+        tubo.style.animation=''
+    }
+}, 50)
+
  document.addEventListener('keydown', pular)

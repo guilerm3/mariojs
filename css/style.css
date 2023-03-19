@@ -25,6 +25,7 @@
     position: absolute;
     bottom: 0;
     width: 100px;
+
     animation: animacaotubo 2s infinite linear;
 }
 
@@ -32,10 +33,6 @@
     position: absolute;
     width: 175px;
     bottom: -5px;
-}
-
-.pular{
-    animation: animacaopulo 500ms linear;
 }
 
 @keyframes animacaotubo{

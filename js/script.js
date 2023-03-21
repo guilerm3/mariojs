@@ -10,9 +10,6 @@ function pular(){
 }
 
 setInterval(function hitbox(){
-  let tubo= document.getElementById('tubo')
-  let mario= document.getElementById('mario')
-  let nuvem= document.getElementById('nuvem')
   let posicao_tubo= tubo.offsetLeft
   let posicao_mario= mario.offsetTop
   let posicao_nuvens = nuvem.offsetLeft
@@ -22,6 +19,7 @@ setInterval(function hitbox(){
       tubo.style.left = `${posicao_tubo}px`
       mario.src='img/esqueleto.png'
       mario.style.top='485px'
+      botao.style.opacity='100%'
       clearInterval(hitbox)
     }
 },50)

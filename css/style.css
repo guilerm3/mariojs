@@ -10,7 +10,7 @@
     border:1px solid black;
     margin: 0 auto;
     position: relative;
-    background: linear-gradient(rgb(113, 189, 240),white)
+    background: linear-gradient(rgb(113, 189, 240),white);
     
 }
 
@@ -33,6 +33,13 @@
     position: absolute;
     width: 175px;
     bottom: -5px;
+}
+
+#botao{
+    position: absolute;
+    top:650px;
+    left:35px;
+    opacity: 0%;
 }
 
 @keyframes animacaotubo{

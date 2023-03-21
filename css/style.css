@@ -42,6 +42,13 @@
     opacity: 0%;
 }
 
+#placar{
+    position: absolute;
+    top:150px;
+    left:700px;
+    font-size: 40px;
+}
+
 @keyframes animacaotubo{
     from{right:-15%;}
     to{right:100%;}

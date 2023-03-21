@@ -9,7 +9,7 @@ function pular(){
       mario.addEventListener('animationend', removeranimacao)
 }
 
-setInterval(function hitbox(){
+setInterval(function engine(){
   let posicao_tubo= tubo.offsetLeft
   let posicao_mario= mario.offsetTop
   let posicao_nuvens = nuvem.offsetLeft
@@ -20,7 +20,10 @@ setInterval(function hitbox(){
       mario.src='img/esqueleto.png'
       mario.style.top='485px'
       botao.style.opacity='100%'
-      clearInterval(hitbox)
+      clearInterval(engine)
+    }
+    if(posicao_tubo <-40 && posicao_tubo >-60){
+      placar.innerHTML= parseInt(placar.innerHTML)+1
     }
 },50)
 

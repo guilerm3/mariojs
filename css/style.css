@@ -25,7 +25,6 @@
     position: absolute;
     bottom: 0;
     width: 100px;
-
     animation: animacaotubo 2s infinite linear;
 }
 
@@ -45,13 +44,6 @@
 }
 
 @keyframes animacaopulo{
-    0%{bottom:-5;}
-    40%{bottom: 175px;}
-    50%{bottom: 175px;}
-    60%{bottom: 175px;}
-    100%{bottom: 0;}
-}
-@keyframes animacaopulo2{
     0%{bottom:-5;}
     40%{bottom: 175px;}
     50%{bottom: 175px;}

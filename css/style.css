@@ -27,6 +27,7 @@
     bottom: -5px;
 }
 #botao{
+    opacity: 0%;
     font-size: 30px;
     position: absolute;
     top:650px;

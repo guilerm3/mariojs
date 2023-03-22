@@ -8,7 +8,6 @@ function pular(){
 }
 
 setInterval(function engine(){
-  botao.style.opacity='0%'
   let posicao_tubo= tubo.offsetLeft
   let posicao_mario= mario.offsetTop
   let posicao_nuvens = nuvem.offsetLeft
@@ -19,7 +18,7 @@ setInterval(function engine(){
       tubo.style.left = `${posicao_tubo}px`
       mario.src='img/esqueleto.png'
       mario.style.top='485px'
-      botao.style.animation='animacaoopacidade 2s'
+      botao.style.animation='animacaoopacidade 1s infinite'
       clearInterval(engine)
     } 
 },50)

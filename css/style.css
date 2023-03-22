@@ -4,16 +4,10 @@
     box-sizing: border-box;
 }
 #game-board{
-    overflow: hidden;
     height: 600px;
-    width: 95%;
-    border:1px solid black;
-    margin: 0 auto;
     position: relative;
     background: linear-gradient(rgb(113, 189, 240),white);
-    
 }
-
 #nuvem{
     position: absolute;
     bottom:0;
@@ -21,34 +15,57 @@
     top:-100px;
     animation: animacaonuvens 13s infinite linear;
 }
-
 #tubo{
     position: absolute;
     bottom: 0;
     width: 100px;
     animation: animacaotubo 2s infinite linear;
 }
-
 #mario{
     position: absolute;
     width: 175px;
     bottom: -5px;
 }
-
 #botao{
     position: absolute;
     top:650px;
     left:35px;
     opacity: 0%;
 }
-
 #placar{
     position: absolute;
-    top:150px;
-    left:700px;
+    color: aliceblue;
     font-size: 40px;
+    top: 62px;
+    left:62px;
 }
-
+#placa{
+    width: 150px;
+}
+#chao{
+    position: absolute;
+    width: 2000px;
+}
+#rolo {
+    width: 50%;
+}
+#rolagem {
+    position: relative;
+    width: 200%;
+    animation: rolagem 0.43s linear infinite;
+}
+#rolagem img:nth-child(2) {
+    left: 50%;
+}
+#centralizador{
+    position: absolute;
+    top:100px;
+    left:650px;
+}
+@keyframes rolagem {
+    0% {left: 0%;}
+    100% {left: -50%;}
+}
 @keyframes animacaotubo{
     from{right:-15%;}
     to{right:100%;}
@@ -57,7 +74,6 @@
     from{right:-50%;}
     to{right:100%;}
 }
-
 @keyframes animacaopulo{
     0%{bottom:-5;}
     40%{bottom: 175px;}

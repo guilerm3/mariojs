@@ -1,6 +1,6 @@
 function pular(){
   mario.style.animation='animacaopulo 500ms linear'
-    removeranimacao = function() {
+    removeranimacao = function() { //Faz o reset para poder acionar a animação novamente
       mario.style.animation = ''
         mario.removeEventListener('animationend', removeranimacao)
       }
@@ -8,17 +8,18 @@ function pular(){
 }
 
 setInterval(function engine(){
+  botao.style.opacity='0%'
   let posicao_tubo= tubo.offsetLeft
   let posicao_mario= mario.offsetTop
   let posicao_nuvens = nuvem.offsetLeft
-  if(posicao_tubo <=145 && posicao_tubo >= -40 && posicao_mario >=315){
+  if(posicao_tubo <=145 && posicao_tubo >= -40 && posicao_mario >=315){ //Condição que para todas as animações
       tubo.style.animation = 'none'
       rolagem.style.animation = 'none'
       nuvem.style.left=`${posicao_nuvens}px`
       tubo.style.left = `${posicao_tubo}px`
       mario.src='img/esqueleto.png'
       mario.style.top='485px'
-      botao.style.opacity='100%'
+      botao.style.animation='animacaoopacidade 2s'
       clearInterval(engine)
     } 
 },50)

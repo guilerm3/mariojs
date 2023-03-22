@@ -30,3 +30,4 @@ setInterval(function engine(){
 
       
  document.addEventListener('keydown', pular) 
+ document.addEventListener('touchstart', pular) 

@@ -1,3 +1,6 @@
+html{
+    overflow-x: hidden;
+}
 *{
     margin:0;
     padding: 0;
@@ -65,7 +68,7 @@
 }
 #placar{
     position: absolute;
-    left:752px;
+    left:742px;
     animation: animacaoscore 3s infinite linear;
     animation-timing-function: ease-in-out;
 }

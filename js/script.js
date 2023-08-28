@@ -11,7 +11,7 @@ setInterval(function engine(){
   let posicao_tubo= tubo.offsetLeft
   let posicao_mario= mario.offsetTop
   let posicao_nuvens = nuvem.offsetLeft
-  if(posicao_tubo <=145 && posicao_tubo >= -40 && posicao_mario >=315){ //Condição que para todas as animações
+  if(posicao_tubo <=145 && posicao_tubo >= -40 && posicao_mario >=315){
       tubo.style.animation = 'none'
       rolagem.style.animation = 'none'
       nuvem.style.left=`${posicao_nuvens}px`

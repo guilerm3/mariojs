@@ -1,7 +1,7 @@
 # mariojs
 
- Mario game made with JavaScript, HTML and CSS  
+ Game made with HTML/CSS and a little JavaScript 
 
- Jogo do Mario feito com JavaScript, HTML e CSS  
+ Jogo feito com HTML/CSS e um pouco de JavaScript  
 
 👉🏻https://guilerm3.github.io/mariojs/ 👈🏻

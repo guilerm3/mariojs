@@ -6,7 +6,7 @@ Este projeto é um **jogo simples**, desenvolvido como um **desafio pessoal** pa
 
 O principal objetivo deste projeto foi criar um jogo interativo e dinâmico utilizando as tecnologias web **HTML**, **CSS** e **JavaScript**. A aplicação foi construída com base em um desafio pessoal de programar a lógica do jogo e a interface, com o foco em aprender e aplicar conceitos de desenvolvimento web, manipulação de DOM e interação com o usuário.
 
-Além disso, toda a parte gráfica (imagens e ícones do jogo) foi criada e editada manualmente utilizando o **GIMP**, com o objetivo de personalizar o visual do jogo.
+Além disso, toda a parte gráfica (imagens e ícones do jogo) foi criada ou editada manualmente utilizando o **GIMP**, com o objetivo de personalizar o visual do jogo.
 
 ## Funcionalidades
 
